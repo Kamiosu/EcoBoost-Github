@@ -145,20 +145,64 @@ body{
 }
 
 
+/* =============== Locked section ============*/
+#lockedSection{ 
+    width: fit-content;
+    margin: auto;
+    width: 90vw;
+    height: 95vh;
+}
+
+#lockedContainer { 
+    height: 80%;
+    width: max-content;
+}
+
+.previewBtn { 
+    background-color: rgb(214, 233, 226);
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.575);
+    cursor: pointer;    
+}
+
+.previewBtn:active{ 
+    /* Link to next HTML page */
+    box-shadow: rgba(0, 0, 0, 0.151);
+    transform: translateY(2px)
+}
+
+#closeLocked { 
+    max-width: 30px;
+    position: relative;
+    float: right;
+    position: relative;right: 11%; top: 12%;  
+}
+
+#closeLocked:hover { 
+    opacity: 50%;
+    box-shadow: 0 0 20px 2px;
+}
+
 /* =============== About section ============*/ 
 #aboutSection{ 
     width: fit-content;
     margin: auto;
     width: 90vw;
     height: 95vh;
-    
 }
 
 #aboutContainer { 
     background-image: url("Assets/popupwindow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    position: relative; 
     width: 80%;
     height: 80%;
     margin: auto; 
@@ -168,8 +212,7 @@ body{
     max-width: 30px;
     position: relative;
     float: right;
-    position: relative;right: 11%; top: 12%;
-    
+    position: relative;right: 11%; top: 12%;  
 }
 
 #closeAbout:hover { 
@@ -180,7 +223,7 @@ body{
 #aboutText { 
     position: relative;left: 12%; top: 20%;
     width: 75%;
-    font-size: xx-large;
+    font-size: 5vh;
 
 }
 
@@ -194,7 +237,7 @@ html *{
 /* FOR DEBUGGIN */
 
 
-/* *{ outline: 2px solid rgba(245, 245, 245, 0.363); } */
+*{ outline: 2px solid rgba(245, 245, 245, 0.363); } 
 
 
 

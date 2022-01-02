@@ -14,16 +14,29 @@
 </head>
 
 <body>
-    <!-- About section  => hidden on default -->
+    <!-- About,Locked section  => hidden on default -->
     <div id="aboutSection" class="hide0" >
-        <div id="aboutContainer" class="hide0">
-            <input type="image" src="Assets/close.png" id="closeAbout" class="hide0"/>
-            <div id="aboutText" class="hide0"> Lol! Welcome to Ecoboost, a set of games where you will take 
-                on real world environmental problems. Our mission: .... Donate: .... 
-            Controls: ....  
+        <div id="aboutContainer" >
+            <input type="image" src="Assets/close.png" id="closeAbout"/>
+            <div id="aboutText"> Welcome to Ecoboost, here you will find a 
+                set of games where you will take on real world environmental problems. 
+                Our mission is to help shape the future generation of people to make better 
+                choices in their daily lives, to start begin to heal the earth.  
+                The controls for each game will be found at the start, you will be awarded
+                points for each game and will recieve a certificate at the end of your journey. 
             </div>
         </div>
     </div>  
+
+    <div id="lockedSection" class="hide0"> 
+        <input type="image" src="Assets/close.png" id="closeLocked" />
+        <div class="previewBtn"> </div>
+        <div class="previewBtn"> </div>
+        <div class="previewBtn"> </div>
+        <div class="previewBtn"> </div>
+        <div class="previewBtn"> </div>
+        <div class="previewBtn"> </div>        
+    </div>
     <header id="header">
         <!-- Contain the Game Name , Logo and Dropdown menu?-->
         <div id="main_head"> EcoBoost</div>
@@ -41,8 +54,8 @@
     <!-- Main container for Play and Locker button -->
     <section id="sec1">
         <div class="container">
-            <a class="button" href="javascript:void(0);" onclick="linkGame()"> Play</a> 
-            <button class="button"> Locked </button>
+            <a id="playBtn" class="button" href="javascript:void(0);" onclick="linkGame()"> Play</a> 
+            <button id="lockBtn" class="button"> Locked </button>
             <button id="aboutBtn" class="button"> About </button>
             <audio src="Assets/buttonSound1.mp3" id="audio1"></audio>
             <audio src="Assets/buttonSound2.mp3" id="audio2"></audio>
