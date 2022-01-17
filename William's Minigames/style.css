@@ -135,13 +135,15 @@ a{
 /* ========================== BODY =====================*/  
 
 body{ 
-    background-image: url("Assets/Jungle.png");
+    
+    background-image: url("Assets/Jungle.png"); 
     background-color: #6abe30;
+    
 /* JUST TO STOP USER SELECTION/ HIGHLIGHTING */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+     user-select: none;
 }
 
 
@@ -197,8 +199,8 @@ body{
     background-image: url(Assets/Game3.png);
     background-size:cover 
 }
-#game1{ 
-    background-image: url(Assets/Game1.png);
+#game4{ 
+    background-image: url(Assets/Game4.png);
     background-size:cover 
 }
 #game5{ 
@@ -311,6 +313,7 @@ body{
     opacity: 50%;
     box-shadow: 0 0 20px 2px;
 }
+
 
 
 html *{ 

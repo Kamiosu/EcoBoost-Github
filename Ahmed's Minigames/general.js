@@ -1,13 +1,19 @@
 // Global and constant variables
 let WIDTH = 128
 let HEIGHT = 128
+
+let cWidth = 256
+let cHeight = 128
 let gGameOver = false
+let GAMEOVER = false
 
 let gImageDatabase = {}
 let gAnimationDatabase = {}
 let gAnimationFrames = {}
 
 let gMouseBuffer = false
+
+let SCALE = 6
 
 function randInt(min, max) {
 	min = Math.ceil(min);
